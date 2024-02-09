@@ -1,7 +1,17 @@
 {
   "name": "sp-useworker",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.2.0",
+  "description": "A hook for using JS web workers in React",
+  "keywords": [
+    "useWorker",
+    "sp-useworker",
+    "react",
+    "hook",
+    "react worker"
+  ],
+  "homepage": "https://github.com/spapayan/sp-useworker#readme",
+  "author": "SPAPAYAN",
+  "license": "ISC",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -14,16 +24,14 @@
   },
   "scripts": {
     "build": "tsc",
+    "watch": "tsc -w",
     "prepare": "npm run build"
   },
-  "author": "SPAPAYAN",
-  "license": "ISC",
   "devDependencies": {
-    "@types/react": "^18.2.53",
-    "react": "^18.2.0",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
+    "@types/react": "^18.2.53",
     "react": "^18.2.0"
   }
 }
